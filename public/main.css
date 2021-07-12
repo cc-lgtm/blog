@@ -1,0 +1,46 @@
+a {
+  text-decoration: none;
+  color: #000;
+}
+ul, li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.floatfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.floatfix {
+  *zoom: 1;
+}
+body {
+  background: #f0f0f0;
+}
+.login, .login body {
+  height: 100%;
+  width: 100%;
+}
+.login .form-group {
+  padding-bottom: 30px;
+}
+.form-group input {
+  height: 24px;
+}
+footer p {
+  text-align: center;
+  line-height: 1.5rem;
+  margin: 0;
+}
+.form-group, .text-group {
+  padding: 0 20px 10px;
+}
+.form-group {
+  height: 40px;
+}
+.form-group label {
+  width: 43px;
+  text-align: right;
+  display: inline-block;
+}
